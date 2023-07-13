@@ -376,7 +376,6 @@ p {
     </style>
   </head>
   <body>
-    <p>Support us by shopping at <a href="https://treasuresonline.ca/">https://treasuresonline.ca/</a></p>
     <div class="player"></div>
     <div class="splash">
       <div>
