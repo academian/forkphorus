@@ -392,8 +392,8 @@ p {
       </div>
     </div>
     
-    <a href="https://treasuresonline.ca/" target="_blank" style="color:#fffb00; text-align:left;">Support us:/</a><br>
-    <a href="https://treasuresonline.ca/" target="_blank" style="color:#fffb00; text-align:left;">shop TreasuresOnline.ca/</a><br>
+    <a href="https://treasuresonline.ca/" target="_blank" style="color:#fffb00; text-align:left;">Support us:</a><br>
+    <a href="https://treasuresonline.ca/" target="_blank" style="color:#fffb00; text-align:left;">shop TreasuresOnline.ca</a><br>
 
     <script>
 // Forkphorus scripts...
