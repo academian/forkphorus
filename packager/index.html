@@ -478,8 +478,8 @@
     const projectSource = new Option()
       .label('Project Source')
       .radio('select-project-type', [
-        { value: 'id', label: 'Project ID', checked: true },
-        { value: 'file', label: 'Project File', checked: false },
+        { value: 'id', label: 'Project ID', checked: false },
+        { value: 'file', label: 'Project File', checked: true },
       ])
       .add();
 
@@ -514,7 +514,7 @@
 
     const showControls = new Option()
       .label('Show Controls')
-      .input({ type: 'checkbox', value: 'true'})
+      .input({ type: 'checkbox', checked: true})
       .description('Show or hide the control widget. This includes the flag, stop sign, pause, but not fullscreen (for now). The user can enable or disable Turbo Mode with this enabled.')
       .add(playerOptionsSection);
 
