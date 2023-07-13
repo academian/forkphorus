@@ -514,13 +514,13 @@
 
     const showControls = new Option()
       .label('Show Controls')
-      .input({ type: 'checkbox' })
+      .input({ type: 'checkbox', value: 'true'})
       .description('Show or hide the control widget. This includes the flag, stop sign, pause, but not fullscreen (for now). The user can enable or disable Turbo Mode with this enabled.')
       .add(playerOptionsSection);
 
     const username = new Option()
       .label('Username')
-      .input()
+      .input({ value: 'student' })
       .description('The value of the "username" block.')
       .add(playerOptionsSection);
 
@@ -556,7 +556,7 @@
     const loadingScreen = new Section('Loading Screen Options');
     loadingScreen.text = new Option()
       .label('Loading screen text')
-      .input({ value: 'forkphorus' })
+      .input({ value: 'Sponsored by TreasuresOnline.ca' })
       .description('Text to be displayed while the project is loading. Set to blank to display only a progress bar.')
       .add(loadingScreen);
   </script>
