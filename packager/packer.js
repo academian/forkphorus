@@ -496,6 +496,7 @@ ${scripts}
     });
 }());
     </script>
+    Support us by shopping for something nice at <a href="https://treasuresonline.ca/">https://treasuresonline.ca/</a>
   </body>
 </html>`;
       return body;
